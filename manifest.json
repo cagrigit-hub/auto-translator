@@ -1,0 +1,17 @@
+{
+  "name": "Select and Translate",
+  "version": "1.0.0",
+  "description": "Select and Translate",
+  "manifest_version": 3,
+  "author": "Çağrı Kutay Ok",
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["auto.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
